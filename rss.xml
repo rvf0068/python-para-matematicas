@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python para matemáticas</title><link>https://rvf0068.github.io/python-para-matematicas/</link><description>LIMA, UAEH, 2022</description><atom:link href="https://rvf0068.github.io/python-para-matematicas/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2022 &lt;a href="mailto:rafaelv@uaeh.edu.mx"&gt;Rafael Villarroel&lt;/a&gt; </copyright><lastBuildDate>Wed, 26 Jan 2022 19:47:37 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Introducción a Python</title><link>https://rvf0068.github.io/python-para-matematicas/posts/2022-01-24-introduccion/</link><dc:creator>Rafael Villarroel</dc:creator><description>&lt;div id="outline-container-org311b46b" class="outline-2"&gt;
+&lt;h2 id="org311b46b"&gt;&lt;span class="section-number-2"&gt;1.&lt;/span&gt; Introducción&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+&lt;b&gt;Python&lt;/b&gt; es uno de los principales lenguaje de programación, debido a que puede aplicarse en una multitud de tareas, incluyendo la didáctica y la investigación en matemáticas. El lenguaje es fácil de aprender y la sintaxis es sencilla. Puesto que es de código abierto, está disponible en prácticamente todos los sistemas operativos.
+&lt;/p&gt;
+
+&lt;p&gt;
+Por otro lado, la facilidad de que Python esté presente en diversos sistemas, implica que no existe una manera única o correcta de trabajar en él.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hay varias maneras de editar y correr programas en Python. Una de ellas, muy popular recientemente, es usar el programa &lt;a href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt;, el cual se puede instalar locamente en nuestros equipos, o bien en línea, por ejemplo en &lt;a href="https://cocalc.com/"&gt;Cocalc&lt;/a&gt;, en &lt;a href="https://colab.research.google.com/"&gt;Google Colab&lt;/a&gt;, o en &lt;a href="https://mybinder.org/"&gt;binder&lt;/a&gt;. También puede instalarse en un celular Android por medio de la aplicación &lt;a href="https://termux.com/"&gt;Termux&lt;/a&gt;.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org47a65f6" class="outline-2"&gt;
+&lt;h2 id="org47a65f6"&gt;&lt;span class="section-number-2"&gt;2.&lt;/span&gt; Temario&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org0c86239" class="outline-3"&gt;
+&lt;h3 id="org0c86239"&gt;&lt;span class="section-number-3"&gt;2.1.&lt;/span&gt; Primera parte: El lenguaje de programación&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Instalación de Python. Herramientas en línea&lt;/li&gt;
+&lt;li&gt;Estructuras de datos básicas: enteros, números flotantes, números complejos, cadenas, valores de verdad, listas, diccionarios, conjuntos.&lt;/li&gt;
+&lt;li&gt;Control de flujo: &lt;code&gt;if&lt;/code&gt;, &lt;code&gt;for&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;Funciones&lt;/li&gt;
+&lt;li&gt;Errores y excepciones&lt;/li&gt;
+&lt;li&gt;Clases&lt;/li&gt;
+&lt;li&gt;Módulos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgc2ebcdd" class="outline-3"&gt;
+&lt;h3 id="orgc2ebcdd"&gt;&lt;span class="section-number-3"&gt;2.2.&lt;/span&gt; Segunda parte: Bibliotecas científicas&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-2"&gt;
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt;&lt;code&gt;sympy&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Cálculo simbólico&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;numpy&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Cálculo numérico&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;matplotlib&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Gráficos científicos&lt;/dd&gt;
+&lt;dt&gt;&lt;code&gt;networkx&lt;/code&gt;&lt;/dt&gt;&lt;dd&gt;Gráficas (redes)&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org3ae62a8" class="outline-3"&gt;
+&lt;h3 id="org3ae62a8"&gt;&lt;span class="section-number-3"&gt;2.3.&lt;/span&gt; Tercera parte: Proyectos&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-3"&gt;
+&lt;p&gt;
+En esta parte expondremos herramientas para elaborar y compartir programas complejos.
+&lt;/p&gt;
+
+&lt;p&gt;
+Pondremos especial atención a las "buenas prácticas", esto es, no nos preocuparemos solamente de que los programas corran, sino que además estén bien escritos, es decir, que:
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;estén documentados&lt;/li&gt;
+&lt;li&gt;tengan ejemplos de cómo deben correr&lt;/li&gt;
+&lt;li&gt;estén divididos en funciones relativamente pequeñas&lt;/li&gt;
+&lt;li&gt;se puedan extender con facilidad&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org50c4764" class="outline-2"&gt;
+&lt;h2 id="org50c4764"&gt;&lt;span class="section-number-2"&gt;3.&lt;/span&gt; Recursos&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/"&gt;Página de Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/es/3/tutorial/"&gt;El tutorial oficial de Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org/3/tutorial/index.html"&gt;El tutorial oficial en inglés&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sympy.org/en/index.html"&gt;sympy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://numpy.org/"&gt;numpy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://matplotlib.org/stable/index.html"&gt;matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://networkx.org/"&gt;networkx&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://www.anaconda.com/products/individual"&gt;Anaconda Individual Edition&lt;/a&gt; (Para instalar Python localmente)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=bY6m6_IIN94&amp;amp;list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-&amp;amp;ab_channel=Socratica"&gt;Curso de Python en YouTube (Socratica)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://realpython.com/"&gt;Real Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/i/lists/835236429173248002"&gt;Mi lista de cuentas relacionadas a Python en Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>https://rvf0068.github.io/python-para-matematicas/posts/2022-01-24-introduccion/</guid><pubDate>Mon, 24 Jan 2022 06:00:00 GMT</pubDate></item></channel></rss>

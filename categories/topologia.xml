@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python para matemáticas (Publicaciones sobre topología)</title><link>https://rvf0068.github.io/python-para-matematicas/</link><description></description><atom:link href="https://rvf0068.github.io/python-para-matematicas/categories/topologia.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2022 &lt;a href="mailto:rafaelv@uaeh.edu.mx"&gt;Rafael Villarroel&lt;/a&gt; </copyright><lastBuildDate>Wed, 26 Jan 2022 00:59:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Espacios topológicos</title><link>https://rvf0068.github.io/python-para-matematicas/posts/2021-01-19-espacios-topologicos/</link><dc:creator>Rafael Villarroel</dc:creator><description>&lt;div id="outline-container-org3ae11fd" class="outline-2"&gt;
+&lt;h2 id="org3ae11fd"&gt;&lt;span class="section-number-2"&gt;1&lt;/span&gt; Definiciones&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgb946ec0" class="outline-3"&gt;
+&lt;h3 id="orgb946ec0"&gt;&lt;span class="section-number-3"&gt;1.1&lt;/span&gt; Espacios topológicos&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;p&gt;
+Un espacio métrico es un conjunto \((X,d)\) donde tenemos una idea de cercanía. La función métrica \(d\) permite definir el concepto de función continua como una función que envía puntos cercanos en puntos cercanos. También se definen los conjuntos abiertos. Resulta que las propiedades de los conjuntos abiertos son suficientes para definir estructuras con el concepto de continuidad, con lo cual se generaliza el concepto de espacio métrico.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org21034cd" class="outline-3"&gt;
+&lt;h3 id="org21034cd"&gt;&lt;span class="section-number-3"&gt;1.2&lt;/span&gt; Funciones continuas&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-2"&gt;
+&lt;p&gt;
+En una función entre espacios métricos \((X,d_{X})\), \((Y,d_{Y})\), dada por \(f\colon X\to Y\), decimos que es &lt;b&gt;continua&lt;/b&gt; si para todo \(\epsilon&amp;gt;0\) existe \(\delta&amp;gt;0\) tal que si \(d(x,y) &amp;lt; \delta\) entonces \(d(f(x),f(y)) &amp;lt; \epsilon\).
+&lt;/p&gt;
+
+&lt;p&gt;
+Se puede definir un conjunto \(U\subseteq X\) como &lt;b&gt;abierto&lt;/b&gt; si para todo \(x\in U\) se tiene que existe \(\epsilon&amp;gt;0\) tal que \(B_{\epsilon}(x)\subseteq U\).
+&lt;/p&gt;
+
+&lt;p&gt;
+Con esta definición, se puede demostrar que \(f\colon X\to Y\) es continua si y solo si \(f^{-1}(U)\) es abierto en \(X\) para todo \(U\) abierto de \(Y\).
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org6d5a46c" class="outline-3"&gt;
+&lt;h3 id="org6d5a46c"&gt;&lt;span class="section-number-3"&gt;1.3&lt;/span&gt; Definiciones&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-3"&gt;
+&lt;/div&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;&lt;a id="org56d4dbe"&gt;&lt;/a&gt;Topología&lt;br&gt;
+&lt;div class="outline-text-4" id="text-1-3-1"&gt;
+&lt;p&gt;
+Sea \(X\) un conjunto. Una &lt;b&gt;topología&lt;/b&gt; en \(X\) es una colección \(\tau\) de subconjuntos de \(X\) tal que:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;\(\emptyset, X\in \tau\),&lt;/li&gt;
+&lt;li&gt;Si \(U_{\alpha}\in\tau\) para todo \(\alpha\in I\), entonces \(\cup_{\alpha\in I}U_{\alpha}\in\tau\).&lt;/li&gt;
+&lt;li&gt;Si \(U_{1},U_{2}\in\tau\), entonces \(U_{1}\cap U_{2}\in \tau\).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a id="orgc4b8e52"&gt;&lt;/a&gt;Espacio topológico&lt;br&gt;
+&lt;div class="outline-text-4" id="text-1-3-2"&gt;
+&lt;p&gt;
+Un &lt;b&gt;espacio topológico&lt;/b&gt; es una pareja \((X,\tau)\) tal que \(\tau\) es una topología en \(X\).
+&lt;/p&gt;
+
+&lt;p&gt;
+En un espacio topológico, los elementos de \(\tau\) se llaman &lt;b&gt;conjuntos abiertos.&lt;/b&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org2aecf29" class="outline-3"&gt;
+&lt;h3 id="org2aecf29"&gt;&lt;span class="section-number-3"&gt;1.4&lt;/span&gt; Ejemplos&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-4"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Para cualquier conjunto \(X\), la colección \(\tau=\{\emptyset, X\}\) es una topología en \(X\).&lt;/li&gt;
+&lt;li&gt;Dado \((X,d)\) un espacio métrico, la colección
+ \(\tau=\{U\subseteq X\mid\text{para todo }x\in X\text{ existe un }\epsilon&amp;gt;0\text{ tal que }B_{\epsilon}(x)\subseteq U\}\) 
+es una topología en \(X\).&lt;/li&gt;
+&lt;li&gt;Un caso particular es \(X=\mathbb{R}^{n}\). Tenemos que \(X\) es un espacio métrico con la métrica usual. Si \(Y\subseteq X=\mathbb{R}^{n}\), se tiene una métrica en \(Y\) que está heredada de la métrica de \(X\). Usando tal métrica, se pueden definir abiertos en \(Y\), y por lo tanto, se le puede dar a \(Y\) una topología. En ese sentido, decimos que \(Y\) es un &lt;b&gt;subespacio&lt;/b&gt; de \(\mathbb{R}^{n}\).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org27e79b3" class="outline-3"&gt;
+&lt;h3 id="org27e79b3"&gt;&lt;span class="section-number-3"&gt;1.5&lt;/span&gt; Funciones continuas&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-5"&gt;
+&lt;p&gt;
+Si tenemos una función entre espacios topológicos \(f\colon X\to Y\), se dice que es &lt;b&gt;continua&lt;/b&gt; si y solo si \(f^{-1}(U)\) es abierto en \(X\) para todo \(U\) abierto de \(Y\).
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>topología</category><guid>https://rvf0068.github.io/python-para-matematicas/posts/2021-01-19-espacios-topologicos/</guid><pubDate>Tue, 19 Jan 2021 20:00:00 GMT</pubDate></item></channel></rss>
